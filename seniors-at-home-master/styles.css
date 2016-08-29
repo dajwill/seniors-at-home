@@ -1,0 +1,109 @@
+/*General*/
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "din-condensed-web",sans-serif;
+}
+
+#one, #two {
+  height: 100vh;
+  width: 100vw;
+  padding: 0 30px;
+}
+
+#three {
+  height: 30vh;
+  width: 100vw;
+  padding: 0 30px;
+}
+
+#centered{
+  text-align: center;
+}
+
+h1 {
+  background: none;
+}
+
+.vertical-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.center-column {
+  margin: 0 auto;
+}
+
+.is-outlined {
+  background: none;
+}
+/*End general styles*/
+
+/*Section 1*/
+
+#one {
+  background: url(images/header.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: scroll;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  background: none;
+  height: 10%;
+}
+
+#nav-link {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+#about {
+  height: 90%;
+  padding: 0 30px;
+}
+
+/*End Section 1*/
+
+/*Section 2*/
+#two {
+  background: url(images/blueprint.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: scroll;
+  border-bottom: 15px solid rgba(0, 0, 0, 0.1);
+}
+
+#two-title {
+  height: 25%;
+}
+
+#two-body {
+  height: 60%;
+}
+/*End Section 2*/
+
+/*Section 3*/
+#three {
+  background: url(images/hands.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+#three h1, #three p {
+  color: white !important;
+}
+
+#three .columns {
+  height: 100%;
+}
+/*End Section 3*/
