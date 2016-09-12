@@ -2,19 +2,18 @@
 body {
   padding: 0;
   margin: 0;
-  overflow-x: hidden;
 }
 
-#home, #about {
+#one, #two {
   height: 100vh;
   width: 100vw;
-  padding: 0 25px;
+  padding: 0 30px;
 }
 
-#contact {
+#three {
   height: 30vh;
   width: 100vw;
-  padding: 0 25px;
+  padding: 0 30px;
 }
 
 #centered{
@@ -38,59 +37,11 @@ h1 {
 .is-outlined {
   background: none;
 }
-
-@media (max-height: 570px) {
-  .arrow {
-    display: none !important;
-  }
-
-  h1 {
-    font-size: 24px !important;
-  }
-
-  p {
-    font-size: 18px !important;
-  }
-}
-
-@media (min-width: 571px) {
-  h1, p {
-    font-size: 1rem;
-  }
-}
-
-@-webkit-keyframes Floatingx{
-    from {-webkit-transform:translate(0, 0px);}
-    65% {-webkit-transform:translate(0, 10px);}
-    to {-webkit-transform: translate(0, -0px);    }
-}
-
-@-moz-keyframes Floating{
-    from {-moz-transform:translate(0, 0px);}
-    65% {-moz-transform:translate(0, 10px);}
-    to {-moz-transform: translate(0, -0px);}
-}
-
-.arrow {
-  display: block;
-  margin: 0 auto;
-}
-
-.arrow:hover {
-  -webkit-animation-name: Floatingx;
-  -webkit-animation-duration: 3s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: ease-in-out;
-  -moz-animation-name: Floating;
-  -moz-animation-duration: 3s;
-  -moz-animation-iteration-count: infinite;
-  -moz-animation-timing-function: ease-in-out;
-}
 /*End general styles*/
 
 /*Section 1*/
 
-#home {
+#one {
   background: url(images/header.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -98,13 +49,10 @@ h1 {
   background-size: cover;
   background-attachment: scroll;
   border-bottom: 5px solid rgba(0, 0, 0, 0.1);
-  min-height: 560px;
-  min-width: 390px;
-  max-width: 100%;
 }
 
 nav {
-  background-color: transparent !important;
+  background: none;
   height: 10%;
 }
 
@@ -113,15 +61,15 @@ nav {
   margin-top: 10px;
 }
 
-#info {
-  height: 75%;
+#about {
+  height: 90%;
   padding: 0 30px;
 }
 
 /*End Section 1*/
 
 /*Section 2*/
-#about {
+#two {
   background: url(images/blueprint.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -129,48 +77,32 @@ nav {
   background-size: cover;
   background-attachment: scroll;
   border-bottom: 15px solid rgba(0, 0, 0, 0.1);
-  min-height: 560px;
-  min-width: 390px;
-  max-width: 100%;
 }
 
-#about-title {
+#two-title {
   height: 25%;
 }
 
-#twabouto-body {
+#two-body {
   height: 60%;
-}
-
-#about img {
-  padding-bottom: 5px;
-}
-
-@media (max-width: 768px) {
-  #about img {
-    display: none;
-  }
 }
 /*End Section 2*/
 
 /*Section 3*/
-#contact {
+#three {
   background: url(images/hands.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-attachment: scroll;
-  min-height: 300px;
-  min-width: 390px;
-  max-width: 100%;
 }
 
-#contact h1, #contact p {
+#three h1, #three p {
   color: white !important;
 }
 
-#contact .columns {
+#three .columns {
   height: 100%;
 }
 /*End Section 3*/
