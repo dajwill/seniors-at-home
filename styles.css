@@ -39,6 +39,10 @@ h1 {
   background: none;
 }
 
+.arrow {
+  height: 60px;
+}
+
 @media (max-height: 570px) {
   .arrow {
     display: none !important;
@@ -138,7 +142,7 @@ nav {
   height: 25%;
 }
 
-#twabouto-body {
+#about-body {
   height: 60%;
 }
 
@@ -147,7 +151,7 @@ nav {
 }
 
 @media (max-width: 768px) {
-  #about img {
+  #about img, .arrow {
     display: none;
   }
 }
